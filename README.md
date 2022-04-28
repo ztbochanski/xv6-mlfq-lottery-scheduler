@@ -19,7 +19,7 @@ This experiment involves building known system calls followed by adding queues t
 
 The structure of this MLFQ scheduler implementation is as follows:
 ![MLFQ](
-  https://github.com/ztbochanski/operating-systems-reference/raw/main/images/mlfq.png)
+  [images/mlfq.png](https://github.com/ztbochanski/xv6-mlfq-lottery-scheduler/raw/main/images/mlfq.png)
 
 >Note: randomness is introduced in both the high priority and low priority queue to determine the winner. This is proportional to the count of processes in the queue using `total count` of processes. This behavior mimicks a priority queue data structure. 
 ## Required Changes to xv6
@@ -161,13 +161,13 @@ SYSTEM TESTS:
 
 Figure 1. Tickets manually changed
 
- ![settickes]()
+ ![settickes](https://github.com/ztbochanski/xv6-mlfq-lottery-scheduler/raw/main/images/settickets.png)
 
 Pass✅
 
 Figure 2. Process priority level increased and tickets count reset.
 
- ![priority]()
+ ![priority](https://github.com/ztbochanski/xv6-mlfq-lottery-scheduler/blob/main/images/priority.png)
 
 Pass✅
 
