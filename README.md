@@ -166,7 +166,7 @@ Pass✅
 
 Figure 2. Process priority level increased and tickets count reset.
 
- ![priority](https://github.com/ztbochanski/xv6-mlfq-lottery-scheduler/blob/main/images/priority.png)
+ ![priority](https://github.com/ztbochanski/xv6-mlfq-lottery-scheduler/raw/main/images/priority.png)
 
 Pass✅
 
