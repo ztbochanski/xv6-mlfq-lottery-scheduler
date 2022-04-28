@@ -18,8 +18,7 @@ For proportional share scheduling, which also is implemented, alongside MLFQ fea
 This experiment involves building known system calls followed by adding queues to the existing scheduler function and then add random selection of a process's ticket to determine it's access to the CPU.
 
 The structure of this MLFQ scheduler implementation is as follows:
-![MLFQ](
-  [images/mlfq.png](https://github.com/ztbochanski/xv6-mlfq-lottery-scheduler/raw/main/images/mlfq.png)
+![MLFQ](https://github.com/ztbochanski/xv6-mlfq-lottery-scheduler/raw/main/images/mlfq.png)
 
 >Note: randomness is introduced in both the high priority and low priority queue to determine the winner. This is proportional to the count of processes in the queue using `total count` of processes. This behavior mimicks a priority queue data structure. 
 ## Required Changes to xv6
